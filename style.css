@@ -622,4 +622,65 @@
 }
 .home-img button:hover {
   background: #d32937;
-}x  
+}
+.classic-cars img{
+  width: 100%;
+  height: 50%;
+}
+.model-cars {
+  
+  text-align: center;
+}
+.article-second {
+  margin-top: 40px ;
+  padding: 30px ;
+  background-color: #F4F4F5;
+  margin-bottom: 40px;
+}
+
+.steps-header-container h2{
+  height: 600px;
+  font-size: 35px;
+  text-align: center;
+}
+.steps-header-container p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+
+}
+
+/* steps container  */
+.steps-container {
+  padding-top: 50px;
+  width: 60%;
+  display :grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.steps-container h3 {
+  padding-bottom: 30px;
+  font-size: 24px;
+
+}
+.steps-container p {
+
+  font-size: 24px;
+  line-height: 40px;
+  color : #8E8E8F;
+}   
+.steps-container img {
+ padding-left: 50px ;
+ 
+}
+.steps-header-container {
+  display: flex;
+  height: 60px;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+}
+
