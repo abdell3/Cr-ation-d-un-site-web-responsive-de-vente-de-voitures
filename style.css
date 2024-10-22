@@ -4,7 +4,7 @@
   font-family: Arial, sans-serif;
 }
 
-body {
+.roben{
   font-family: Arial, sans-serif;
 }
 
@@ -537,3 +537,89 @@ body {
     height: fit-content;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Outfit:wght@100..900&display=swap');
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+.reality {
+    font-size: 1rem;
+}
+
+.header {
+        display: flex;
+        background : linear-gradient(#550007,#B3BDC8);
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 10%;
+        /* box-shadow: 20px 20px 50px 15px white  !important; */
+}
+.header img {
+    width : 70px ;
+    height: 60px;
+    align-items: center; 
+    border-radius: 20px ;
+}
+.nav-links li  {
+    display: inline-block;
+    padding: 0 20px; 
+}
+.toggle-btn {
+    display: none ;
+}
+
+.header  li a {
+    text-decoration: none ;
+    color: white;
+}
+.nav-button button {
+    background-color: whitesmoke;
+    padding: 9px 25px ;
+    border-radius: 20px;
+    border: none;
+    transition: 0.2s;
+}
+.nav-button button:hover {
+    background: #d32937 ;
+}
+.home-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  background-image: url(/img/carsback.jpg);
+  }
+.home-img h1 {
+  color: white;
+  font-family: 'Outfit';
+  font-size: 70px;
+
+}
+.home-img p {
+  color: white ;
+  font-size: 50px ;
+  font-family: 'Outfit';
+  padding-top: 30px ; 
+}
+.home-img a {
+  color: white;   
+  font-size: 70px;
+}
+.home-img ul  li {
+  font-size: 24px;
+}
+.home-img button {
+  background-color: white;
+ transition: 0.3s;
+ margin-top: 30px;
+}
+.home-img button:hover {
+  background: #d32937;
+}x  
