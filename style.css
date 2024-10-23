@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.section-login {
+  background-image: url("./image/login\ background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw;
+      height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 40px;
+}
+.login {
+  background-color: #56565677;
+  border-radius: 15px;
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  /*flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 12px;
+}
+.login img {
+  border-radius: 100%;
+  border-image: none;
+  width: 14vh;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.login form input {
+  width: 25vw;
+  height: 8vh;
+  border-radius: 80px;
+  border: none;
+  background-color: #56565689;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  /* color: #d1d1cc; */
+}
+/* ::placeholder{
+      
+      text-align:start
+  } */
+
+.login button {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: none;
+  background-color: #550007;
+  cursor: pointer;
+  text-decoration: none;
+  color: #d1d1cc;
+}
+::placeholder {
+  color: #cfccd1;
+}
+.section-signup {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.section-signup-img {
+  width: 50vw;
+  height: 99vh;
+  padding: 10px;
+}
+.signup form {
+  width: 47vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.signup form label {
+  color: white;
+  font-size: bold;
+}
+.signup form input {
+  width: 25vw;
+  height: 8vh;
+  border: none;
+  border-radius: 80px;
+  background-color: #56565689;
+  cursor: pointer;
+  outline: none;
+  padding: 20px;
+}
+
+.signup form button {
+  padding: 15px 45px;
+  border-radius: 25px;
+  border: none;
+  background-color: #550007;
+  cursor: pointer;
+  text-decoration: none;
+  color: #d1d1cc;
+}
