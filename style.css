@@ -732,3 +732,115 @@
   border-radius: 4px;
   transition: 0.2s;
 }
+.HeroBanner button {
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+}
+.cars-content button:hover {
+  background-color: rgb(94, 94, 253);
+}
+.steps-container img {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.cars-content {
+  padding: 20px;
+}
+.cars-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.cars-content p {
+  line-height: 30px;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+/* History cammands */
+table, .History h1 {
+  font-family: arial, sans-serif;
+  padding-top: 30px;
+  width: 100%;
+}
+
+
+.History h1 {
+    padding-top: 50px ;
+    padding-left: 10px;
+    text-align: start;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+ 
+  padding: 20px;
+}
+.seemore button{
+  color: black;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: rgb(218, 218, 218);
+  padding: 10px 50px;
+  transition : 0.2s;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.seemore button:hover {
+  background-color: rgb(86, 27, 27);
+}
+
+tr:nth-child(2) {
+  background-color: #dddddd;
+}
+/* end of History commands */
+.footer {
+ display: grid;
+ grid-template-columns: 40% 20% 20% 20%;
+ padding: 7%;
+ font-size: 24px;
+ background: #550007;
+ color: #FFFFFF;
+}
+.footer input {
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.footer ul {
+  display: grid;
+  list-style: none;
+  row-gap: 20px;
+}
+.footer h3 {
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.footerimages div {
+  width: 100%;
+  padding-top: 20px;
+  grid-template-rows: repeat(4,1fr);
+}
+.footerimages img{
+  width : 30px ;
+  height: 30px;
+}
+.myfooterimages {
+  display: grid;
+  grid-template-columns: repeat(4,50px);
+}    
+.toggle-btn {
+  
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;   
+}
+main{
+  /* background-color: red; */
+  width: 100vw;
+  overflow: hidden;
+}
