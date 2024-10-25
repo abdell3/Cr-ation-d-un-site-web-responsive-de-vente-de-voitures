@@ -476,4 +476,64 @@ body {
     max-width: 250px;
 
   }
+
+  .car-option button {
+    padding: 10px 20px;
+    background-color: #730000;
+    color: #fff;
+    border: none;
+
+    border-radius: 10px;
+  }
+
+  .Block .Block-area {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    background-size: cover;
+    width: 100%;
+
+    height: fit-content;
+    padding: 20px;
+  }
+
+  .Block .Block-area .car-info {
+    display: grid;
+    justify-content: start;
+    background-color: #484848;
+    padding: 20px;
+    border: 1px solid black;
+    height: inherit;
+
+
+  }
+
+  .Block-colum {
+    background-image: url(./img/Design\ ohne\ Titel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    height: -moz-available;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .Block .Block-car {
+    display: grid;
+    gap: 20px;
+    background-image: url(./img/Essence\ Details\ _\ Bristol\ -\ Prolight\ Design.jfif);
+    border-radius: 10px;
+  }
+
+  .Block-colum {
+    background-image: url(./img/Design\ ohne\ Titel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    height: fit-content;
+  }
 }
