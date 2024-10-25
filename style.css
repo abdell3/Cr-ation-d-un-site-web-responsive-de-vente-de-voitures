@@ -439,3 +439,41 @@ body {
   justify-self: center;
   border-radius: 20px;
 }
+
+/* responsive */
+/* tablete */
+@media screen and (max-width : 768px) {
+
+  .Block {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .Block .Block-car {
+
+
+    background-image: url(./img/Essence\ Details\ _\ Bristol\ -\ Prolight\ Design.jfif);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+
+
+  .car-option {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  .car-option img {
+    border-radius: 20px;
+    background-color: #730000;
+    width: 100%;
+    max-width: 250px;
+
+  }
+}
