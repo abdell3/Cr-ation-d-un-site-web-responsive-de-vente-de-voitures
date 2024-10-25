@@ -24,13 +24,17 @@
   /*flex-wrap: wrap; */
   flex-direction: column;
   gap: 20px;
-   align-items: center; 
+  align-items: center;
   padding: 12px;
 }
 .login img {
   border-radius: 100%;
   border-image: none;
   width: 14vh;
+  transition: all 0.5s;
+}
+.login img:hover {
+  transform: rotate3d(0, 1, 0, 180deg);
 }
 
 .login form {
@@ -54,13 +58,13 @@
       
       text-align:start
   } */
-  .login p a{
-    color: black;
-    text-decoration: none;
-  }
-  .login p a:hover{
-    color: #550007;
-  }
+.login p a {
+  color: black;
+  text-decoration: none;
+}
+.login p a:hover {
+  color: #550007;
+}
 .login button {
   padding: 15px 45px;
   border-radius: 25px;
@@ -118,34 +122,32 @@
   text-decoration: none;
   color: #d1d1cc;
 }
-@media screen and (max-width:430px){
- 
-  .section-login{
+@media screen and (max-width: 430px) {
+  .section-login {
     background-image: url("./image/backgroundmobil.jpg");
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     height: 89vh;
     padding: 10px;
   }
 
- .login{
- background-color: #56565677;
-  border-radius: 15px;
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  padding: 12px;
-
-  } 
-  .login form {
-    display: flex; 
+  .login {
+    background-color: #56565677;
+    border-radius: 15px;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
     flex-direction: column;
-    gap:15px;
-    align-items:flex-start;
+    gap: 20px;
+    align-items: center;
+    padding: 12px;
+  }
+  .login form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -159,18 +161,17 @@
     cursor: pointer;
   }
 }
-@media screen and (max-width: 768px){
-
-  .login{
+@media screen and (max-width: 768px) {
+  .login {
     background-color: #56565677;
-     border-radius: 15px;
-     width: 70%;
-     height: 70vh;
-     display: flex;
-     flex-direction: column;
-     gap: 20px;
-     align-items: center;
-     padding: 12px;
+    border-radius: 15px;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 12px;
   }
   .login form input {
     width: 60vw;
@@ -181,5 +182,47 @@
     outline: none;
     cursor: pointer;
   }
-
+}
+@media screen and (max-width: 430px) {
+  .section-signup {
+    height: 100vh;
+    background-image: url(./image/background\ register.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 10%;
+    padding-inline: 10px;
+  }
+  .section-signup-img {
+    display: none;
+  }
+  .signup form {
+    /* width:47vw;  */
+    /* height: 10vh; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 30px;
+    justify-content: center;
+    /* /* align-items: center;  */
+  }
+  .signup form input {
+    width: 85vw;
+    /* height: 10vh; */
+    border: none;
+    border-radius: 80px;
+    background-color: #56565689;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+  }
+  .signup form button {
+    padding: 15px 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: #550007;
+    cursor: pointer;
+    text-decoration: none;
+    color: #d1d1cc;
+  }
 }
